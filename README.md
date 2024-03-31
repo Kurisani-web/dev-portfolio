@@ -10,7 +10,7 @@
 
   Developer Portfolio is fully responsive Portfolio website made using ReactJS.
 
-  <a href="https://pawantech12.github.io/dev-portfolio/"><strong>➥ Live Demo</strong></a>
+  <a href="https://dev-portfolio-mu-coral.vercel.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
