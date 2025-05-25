@@ -24,7 +24,7 @@ export default function Navbar() {
   }, []);
   
   return (
-    <div>
+    <div ref={navRef}>
       <nav className="navbar">
         <div className="logo">
             <Link to="">Kurisani</Link>
