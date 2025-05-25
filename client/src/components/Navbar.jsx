@@ -1,11 +1,28 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {Link} from 'react-router-dom';
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navRef = useRef();
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+   // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (navRef.current && !navRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+  
   return (
     <div>
       <nav className="navbar">
