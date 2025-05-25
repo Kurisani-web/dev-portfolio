@@ -9,7 +9,7 @@ const port = 3000;
 const cors = require("cors");
 app.use(express.json())
 const corsOption = {
-  origin: "http://localhost:5173",
+  origin: "https://kurisani-maluleke.vercel.app",
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
   Credentials:true,
 };
