@@ -19,8 +19,9 @@ export default function MySkills() {
       <div className="header">
         <h2>My Skills</h2>
         <p className="text-muted">
-          Beautiful and functional web application using below Programming
-          Languages and Frameworks
+          I build beautiful and functional web applications 
+          using the following programming languages, frameworks, 
+          and tools.
         </p>
       </div>
       <div className="section-container">
