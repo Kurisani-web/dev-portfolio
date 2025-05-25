@@ -28,16 +28,7 @@ export default function Hero() {
           </span>
         </h3>
         <div className="btn-group">
-          <a
-             href="https://wa.me/27606031205"
-             target="_blank"
-             rel="noopener noreferrer"
-             className="btn btn-primary"
-             style={{ textDecoration: "none" }}
-            >
-           <i className="btn btn-primary"></i>
-             Contact Me
-          </a>
+          <a href="https://wa.me/27606031205" className="btn btn-primary">Contact Me</a>
           <button className="btn btn-black">Learn More</button>
         </div>
       </div>
