@@ -24,7 +24,7 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      let response = await fetch("http://localhost:3000/api/form/contact", {
+      let response = await fetch("https://kurisani-backend.onrender.com/api/form/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ export default function Contact() {
     <div className="contact-section">
       <div className="header">
         <span>Contact With Me</span>
-        <h2>Have an Project in Mind?</h2>
+        <h2>Have a Project in Mind?</h2>
         <p className="text-muted">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
           fugiat aliquam enim expedita? Quibusdam expedita ea eligendi
