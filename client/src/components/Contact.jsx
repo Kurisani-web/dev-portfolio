@@ -62,7 +62,11 @@ export default function Contact() {
   } catch (error) {
     // ✅ UPDATED: Added toast for network/server failure
     console.error("Submission Error:", error);
-    toast.error("Server error. Please try again.");
+    if (error instanceof TypeError) {
+      toast.error("Network error: Please check your internet connection.");
+    } else {
+      toast.error("Server error. Please try again.");
+    }
   } finally {
     setLoading(false);
   }
