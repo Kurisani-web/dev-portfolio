@@ -9,11 +9,10 @@ export default function MyClient() {
   return (
     <div className="myclient-section">
       <div className="section-header">
-        <h2>Some of My Happy Clients</h2>
+        <h2>Trusted By Leading Brands</h2>
         <p className="text-muted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          veritatis aperiam, mollitia officiis repudiandae possimus maxime
-          soluta labore aut dolores.
+          Trusted by these amazing companies and 
+          brands!
         </p>
       </div>
       <div className="client-list">
