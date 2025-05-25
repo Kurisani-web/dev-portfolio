@@ -34,9 +34,11 @@ export default function Portfolio() {
         <span>Creative Portfolios</span>
         <h2>Recent Works</h2>
         <p className="text-muted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ea
-          rem eligendi excepturi blanditiis veniam delectus. Voluptatum illum et
-          soluta recusandae quaerat minus officiis assumenda.
+           Explore some of my latest projects 
+           where I’ve applied my skills to create 
+           effective, user-friendly solutions. 
+           Each project showcases my dedication to 
+           quality and innovation in web and app development.
         </p>
       </div>
       <div className="portfolio-container">
