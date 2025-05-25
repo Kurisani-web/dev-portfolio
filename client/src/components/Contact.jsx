@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
+
 export default function Contact() {
   const [contact, setContact] = useState({
     name: "",
@@ -11,6 +12,7 @@ export default function Contact() {
 
   const [msg, setMsg] = useState("");
   const [showMessage, setShowMessage] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   const handleInput = (e) => {
     const name = e.target.name;
@@ -23,6 +25,7 @@ export default function Contact() {
   };
   const handleSubmit = async (e) => {
   e.preventDefault();
+  setLoading(true);
   try {
     // ✅ UPDATED: Use environment variable instead of hardcoded URL
     const response = await fetch("https://kurisani-backend.onrender.com/api/form/contact", {
@@ -60,6 +63,8 @@ export default function Contact() {
     // ✅ UPDATED: Added toast for network/server failure
     console.error("Submission Error:", error);
     toast.error("Server error. Please try again.");
+  } finally {
+    setLoading(false);
   }
 };
 
@@ -135,7 +140,9 @@ export default function Contact() {
           ></textarea>
           <br />
           <br />
-          <button type="submit">Submit</button>
+          <button type="submit" disabled={loading}>
+            {loading ? "Submitting..." : "Submit"}
+          </button>
         </form>
       </div>
     </div>
