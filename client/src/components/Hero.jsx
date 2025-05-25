@@ -28,7 +28,7 @@ export default function Hero() {
           </span>
         </h3>
         <div className="btn-group">
-          <a href="https://wa.me/27606031205" className="btn btn-primary">Contact Me</a>
+          <button className="btn btn-primary">Contact Me</button>
           <button className="btn btn-black">Learn More</button>
         </div>
       </div>
