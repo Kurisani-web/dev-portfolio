@@ -75,7 +75,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
   gap: 8rem;
 }
 .about-section .profile-img{
