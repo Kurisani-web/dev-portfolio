@@ -7,16 +7,16 @@ export default function Footer() {
       <footer className="footer-section">
         <div className="footer-up">
           <div className="description">
-            <h4>Pawan's Portfolio</h4>
+            <h4>Kurisani's Portfolio</h4>
             <p>
-              Thank you for visiting my personal portfolio website. Connect with
-              me over socials.
+              Thanks for stopping by my personal portfolio!
             </p>
             <p>
-              Keep Rising 🚀. Connect with me over social and coding platform.
+              Let’s keep rising 🚀 — feel free to 
+              connect with me on social and coding platforms.
             </p>
           </div>
-          <div className="quick-links">
+          {/*<div className="quick-links">
           <h4>Quick Links</h4>
             <ul>
               <li>
@@ -35,18 +35,32 @@ export default function Footer() {
                 <Link to="">Contact</Link>
               </li>
             </ul>
-          </div>
+          </div>*/}
           <div className="contact-info">
           <h4>Contact Info</h4>
             <ul className="contact">
               <li>
-                <i className="bi bi-telephone-fill"></i><Link>+91 9619579304</Link>
+                <i className="bi bi-telephone-fill"></i>
+<Link
+  to="#"
+  onClick={() => (window.location.href = 'tel:+27606031205')}
+  style={{ textDecoration: 'underline' }}
+>
+  +27 60 603 1205
+</Link>
               </li>
               <li>
-                <i className="bi bi-envelope-fill"></i><Link>pawankumavat042@gmail.com</Link>
+                <i className="bi bi-envelope-fill"></i>
+<Link
+  to="#"
+  onClick={() => (window.location.href = 'mailto:kurisanimaluleke77@gmail.com')}
+  style={{ textDecoration: 'underline' }}
+>
+  kurisanimaluleke77@gmail.com
+</Link>
               </li>
               <li>
-                <i className="bi bi-geo-alt-fill"></i><Link>Thane,India</Link>
+                <i className="bi bi-geo-alt-fill"></i><Link>Limpopo, South Africa</Link>
               </li>
             </ul>
             <ul className="social-link">
@@ -75,8 +89,10 @@ export default function Footer() {
         </div>
         <hr />
         <div className="footer-bottom">
-            <p>Designed With <i className="bi bi-suit-heart-fill heart-beat"></i> By <Link>Pawan Kumavat</Link></p>
-        </div>
+  <p>
+    Kurisani Maluleke &copy; {new Date().getFullYear()} — All rights reserved.
+  </p>
+</div>
       </footer>
     </>
   );
