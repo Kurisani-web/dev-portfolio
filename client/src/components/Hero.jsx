@@ -40,7 +40,7 @@ export default function Hero() {
   className="btn btn-black"
   onClick={() => window.open("tel:0606031205")}
 >
-  Contact Me
+   Tap to Call
 </button>
         </div>
       </div>
