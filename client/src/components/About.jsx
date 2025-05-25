@@ -12,11 +12,11 @@ export default function About() {
         <h3>I'm Kurisani Maluleke</h3>
         <small>Fullstack Developer</small>
         <p>
-          I am a Full-Stack developer based in Limpopo, South Africa. I am an Information
-          Technology undergraduate from SPPU. I am very passionate about
-          improving my coding skills & developing applications & websites. I
-          build WebApps and Websites using MERN Stack. Working for myself to
-          improve my skills. Love to build Full-Stack clones.
+          I'm Creative Full-Stack Developer and UI/UX Designer from Limpopo, South Africa, working in web and app development. 
+          I enjoy turning complex problems into simple, beautiful and intuitive designs. 
+          My job is to build your website and app so that it is functional and user-friendly but at the same time attractive. 
+          Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. 
+          My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
         </p>
         <ul className="contact">
           <li>
