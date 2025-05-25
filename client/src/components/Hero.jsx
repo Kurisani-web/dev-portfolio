@@ -34,7 +34,7 @@ export default function Hero() {
              rel="noopener noreferrer"
              className="btn btn-primary"
             >
-           <i className="fab fa-whatsapp" style={{ marginRight: "8px" }}></i>
+           <i className="fab fa-whatsapp" style={{ marginRight: "8px", alignItems: "center" }}></i>
              Contact Me
           </a>
           <button className="btn btn-black">Learn More</button>
