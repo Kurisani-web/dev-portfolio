@@ -8,7 +8,7 @@ export default function Hero() {
         <span>Hey There 👋 I am</span>
         <h1>Kurisani Maluleke</h1>
         <h3>
-          I'm{" "}
+          I'm a{" "}
           <span style={{ color: "blue", fontWeight: "bold" }}>
             {/* Style will be inherited from the parent element */}
             <Typewriter
