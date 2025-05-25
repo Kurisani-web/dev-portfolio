@@ -75,12 +75,15 @@ export default function Contact() {
   return (
     <div className="contact-section">
       <div className="header">
-        <span>Contact With Me</span>
-        <h2>Have a Project in Mind?</h2>
+        <span>Get in Touch</span>
+        <h2>Got a Project Idea?</h2>
         <p className="text-muted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
-          fugiat aliquam enim expedita? Quibusdam expedita ea eligendi
-          consequuntur, quaerat sit?
+          Got a project idea you want 
+          to bring to life? Let’s collaborate 
+          and build something amazing together. 
+          Whether it’s a web app, mobile app, or 
+          custom software, I’m here to help turn 
+          your vision into reality
         </p>
       </div>
       <div className="errorContainer">
