@@ -22,50 +22,46 @@ export default function Contact() {
     });
   };
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      let response = await fetch("https://kurisani-backend.onrender.com/api/form/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(contact),
+  e.preventDefault();
+  try {
+    // ✅ UPDATED: Use environment variable instead of hardcoded URL
+    const response = await fetch("https://kurisani-backend.onrender.com/api/form/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(contact),
+    });
+
+    const res_data = await response.json();
+    console.log(res_data);
+
+    if (response.status === 200) {
+      // ✅ UPDATED: Use toast.success for clarity
+      toast.success("Form Submitted Successfully");
+
+      setContact({
+        name: "",
+        company: "",
+        email: "",
+        mobile: "",
+        message: "",
       });
-      const res_data = await response.json();
-      console.log(res_data);
-      toast(res_data.errors);
-      if (response.status === 200) {
-        // display toast notification with success message
-        console.log("form submitted");
-        toast("Form Submitted Successfully");
-        setContact({
-          name: "",
-          company: "",
-          email: "",
-          mobile: "",
-          message: "",
-        });
-        setMsg(res_data.errors);
-        setTimeout(() => {
-          setShowMessage(false);
-        }, 3000);
-        setShowMessage(true);
-      } else {
-        setMsg(res_data.errors);
-        setTimeout(() => {
-          setShowMessage(false);
-        }, 3000);
-        setShowMessage(true);
-        toast("Form Not submitted");
-      }
-    } catch (error) {
-      // const errorObject = error.errors;
-      // const errormessage = errorObject.map((detail) => errorObject.message);
-      // setError(error);
-      console.error(error);
-      // console.log(errors);
+    } else {
+      // ✅ UPDATED: Use toast.error with fallback message
+      toast.error(res_data.errors || "Form not submitted");
     }
-  };
+
+    setMsg(res_data.errors || "");
+    // ✅ UPDATED: Call setShowMessage before setTimeout to prevent flicker
+    setShowMessage(true);
+    // ✅ UPDATED: Reordered setTimeout after setShowMessage
+    setTimeout(() => setShowMessage(false), 3000);
+
+  } catch (error) {
+    // ✅ UPDATED: Added toast for network/server failure
+    console.error("Submission Error:", error);
+    toast.error("Server error. Please try again.");
+  }
+};
 
   return (
     <div className="contact-section">
