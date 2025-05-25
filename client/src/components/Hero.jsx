@@ -15,8 +15,15 @@ export default function Hero() {
               words={[
                 "Frontend Developer",
                 "Backend Developer",
+                "Full Stack Developer",
+                "UI/UX Designer",
+                "React Developer",
+                "Node.js Developer",
+                "Software Engineer",
                 "MERN Developer",
                 "Web Developer!",
+                "App Developer!",
+                "Web Designer!",
               ]}
               loop={true}
               cursor
