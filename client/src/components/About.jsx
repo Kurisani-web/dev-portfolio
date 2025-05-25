@@ -21,7 +21,7 @@ export default function About() {
         <ul className="contact">
           <li>
             <i className="bi bi-telephone-fill"></i>
-            <a href="tel:+27606031205">+27 60 603 1205</a>
+            <a style={{textDecoration: "underline" }} href="tel:+27606031205">+27 60 603 1205</a>
           </li>
           <li>
             <i className="bi bi-envelope-fill"></i>
