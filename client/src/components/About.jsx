@@ -25,11 +25,12 @@ export default function About() {
           </li>
           <li>
             <i className="bi bi-envelope-fill"></i>
-            <a href="mailto:kurisanimaluleke77@gmail.com">kurisanimaluleke77@gmail.com</a>
+            <a style={{textDecoration: "underline" }} href="mailto:kurisanimaluleke77@gmail.com">kurisanimaluleke77@gmail.com</a>
           </li>
           <li>
             <i className="bi bi-geo-alt-fill"></i>
             <a 
+              style={{textDecoration: "underline" }}
               href="https://www.google.com/maps/search/?api=1&query=Limpopo%2C+South+Africa"
               target="_blank"
               rel="noopener noreferrer"
