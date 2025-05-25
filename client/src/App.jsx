@@ -15,7 +15,7 @@ function App({ element }) {
       <Footer />
 
       {/* ✅ Add ToastContainer at the root */}
-      <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="bottom-center" autoClose={5000} />
     </>
   );
 }
