@@ -34,7 +34,7 @@ export default function Hero() {
     window.open("https://wa.me/27606031205", "_blank", "noopener,noreferrer")
   }
 >
-  Contact Me
+  WhatsApp
 </button>
           <button className="btn btn-black">Learn More</button>
         </div>
