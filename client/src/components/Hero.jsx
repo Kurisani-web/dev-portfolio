@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="hero-section">
       <div className="content">
         <span>Hey There 👋 I am</span>
-        <h1>Pawan Kumavat</h1>
+        <h1>Kurisani Maluleke</h1>
         <h3>
           I'm{" "}
           <span style={{ color: "blue", fontWeight: "bold" }}>
@@ -28,7 +28,15 @@ export default function Hero() {
           </span>
         </h3>
         <div className="btn-group">
-          <button className="btn btn-primary">Contact Me</button>
+          <a
+             href="https://wa.me/27656485054"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="btn btn-primary"
+            >
+           <i className="fab fa-whatsapp" style={{ marginRight: "8px" }}></i>
+             Contact Me
+          </a>
           <button className="btn btn-black">Learn More</button>
         </div>
       </div>
