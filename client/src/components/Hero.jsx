@@ -29,12 +29,13 @@ export default function Hero() {
         </h3>
         <div className="btn-group">
           <a
-             href="https://wa.me/27656485054"
+             href="https://wa.me/27606031205"
              target="_blank"
              rel="noopener noreferrer"
              className="btn btn-primary"
+             style={{ textDecoration: "none" }}
             >
-           <i className="fab fa-whatsapp" style={{ marginRight: "8px", alignItems: "center" }}></i>
+           <i className="btn btn-primary"></i>
              Contact Me
           </a>
           <button className="btn btn-black">Learn More</button>
