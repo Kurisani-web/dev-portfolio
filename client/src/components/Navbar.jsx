@@ -10,7 +10,7 @@ export default function Navbar() {
     <div>
       <nav className="navbar">
         <div className="logo">
-            <Link to="">Pawan</Link>
+            <Link to="">Kurisani</Link>
         </div>
         <ul className={`nav-link ${isOpen && 'open'}`}>
             <li><Link to="/">Home</Link></li>
@@ -20,7 +20,7 @@ export default function Navbar() {
             <li><Link to="/portfolio">Portfolio</Link></li>
             <li><Link to="/contact">Contact</Link></li>
             <div className="downloadbtn">
-          <button className="btn btn-primary"><Link to="" className="link">Download CV</Link></button>
+          <button className="btn btn-primary"><Link to="" className="link">Start Your Order</Link></button>
         </div>
         </ul>
         
