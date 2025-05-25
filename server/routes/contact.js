@@ -19,8 +19,8 @@ router.post(
         secure: false,
         auth: {
           // TODO: replace `user` and `pass` values from <https://forwardemail.net>
-          user: "YOUR EMAIL",
-          pass: "YOUR EMAIL APP PASWORD",
+          user: "kurisanimaluleke77@gmail.com",
+          pass: "rgwyjjwrllvtqwvn",
         },
       });
       const sendEmail = () => {
@@ -29,7 +29,7 @@ router.post(
         console.log(name,email);
        
         let mailOptions = {
-            from: "codewithpawanofficial@gmail.com",
+            from: "kurisanimaluleke77@gmail.com",
             to:email,
             subject:"Thanks For Reaching Out!",
             text:`Hi ${name},
@@ -44,7 +44,7 @@ Looking forward to connecting with you!
             
 Best regards,
             
-codewithpawanofficial@gmail.com`
+kurisanimaluleke77@gmail.com`
         };
         transporter.sendMail(mailOptions,(error,info) => {
             if(error){
