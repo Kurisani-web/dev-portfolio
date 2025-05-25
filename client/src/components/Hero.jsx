@@ -36,7 +36,12 @@ export default function Hero() {
 >
   WhatsApp
 </button>
-          <button className="btn btn-black">Learn More</button>
+          <button
+  className="btn btn-black"
+  onClick={() => window.open("tel:0606031205")}
+>
+  Contact Me
+</button>
         </div>
       </div>
       <div className="img">
