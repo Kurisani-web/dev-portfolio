@@ -8,8 +8,9 @@ export default function Education() {
       <div className="header">
         <h2>My Education</h2>
         <p>
-          Education Is Not The Learning Of Facts, But The Training Of The Mind
-          To Think.
+          Education isn't just about memorizing 
+          facts—it's about training the mind to think 
+          critically and creatively.
         </p>
       </div>
       <div className="education-list">
@@ -20,17 +21,17 @@ export default function Education() {
                 <img src={degreeClg} alt="" />
               </div>
               <div className="details">
-                <h4>Bachelor of Science in Computer Science</h4>
+                <h4>Water Science</h4>
                 <small>
-                  K.M. Agrawal College of Arts, Commerce and Science (Kalyan |
-                  Maharashtra)
+                  Tshwane University of Technology (Arcadia Campus)
                 </small>
                 <p>
-                  Pursuing Bachelor of Science in Computer Science at K.M.
-                  Agrawal College, honing my skills in programming, data
-                  structures, algorithms, and software development.
+                  Currently studying Water Sciences at TUT, focusing 
+                  on water resource management, environmental sustainability, 
+                  and scientific research methods to tackle real-world water 
+                  challenges.
                 </p>
-                <span>2021-2024</span>
+                <span>Currently</span>
               </div>
             </div>
           </li>
@@ -40,17 +41,19 @@ export default function Education() {
                 <img src={hscClg} alt="" />
               </div>
               <div className="details">
-                <h4>HSC in Science</h4>
+                <h4>National Senior Certificate</h4>
                 <small>
-                  Hill Spring International Jr. College of Science and Commerce
-                  (Kalyan | Maharashtra)
+                  Mahuntsi Secondary School 
+                  (Limpopo | South Africa)
                 </small>
                 <p>
-                  Graduated with a Higher Secondary Certificate (HSC) in Science
-                  from Hill Spring International Jr. College of Science and
-                  Commerce
+                  Completed secondary education 
+                  with a focus on Science at Mahuntsi 
+                  Secondary School, building a strong 
+                  foundation in physical sciences, life sciences, 
+                  and mathematics.
                 </p>
-                <span>2019-2021</span>
+                <span>2019-2023</span>
               </div>
             </div>
           </li>
