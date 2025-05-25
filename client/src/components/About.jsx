@@ -9,10 +9,10 @@ export default function About() {
       </div>
       <div className="about-me">
         <h2>About Me</h2>
-        <h3>I'm Pawan Kumavat</h3>
+        <h3>I'm Kurisani Maluleke</h3>
         <small>Fullstack Developer</small>
         <p>
-          I am a Full-Stack developer based in Pune, India. I am an Information
+          I am a Full-Stack developer based in Limpopo, South Africa. I am an Information
           Technology undergraduate from SPPU. I am very passionate about
           improving my coding skills & developing applications & websites. I
           build WebApps and Websites using MERN Stack. Working for myself to
@@ -21,11 +21,11 @@ export default function About() {
         <ul className="contact">
           <li>
             <i className="bi bi-telephone-fill"></i>
-            <Link>+91 9619579304</Link>
+            <Link>+27 60 603 1205</Link>
           </li>
           <li>
             <i className="bi bi-envelope-fill"></i>
-            <Link>pawankumavat042@gmail.com</Link>
+            <Link>kurisanimaluleke77@gmail.com</Link>
           </li>
           <li>
             <i className="bi bi-geo-alt-fill"></i>
