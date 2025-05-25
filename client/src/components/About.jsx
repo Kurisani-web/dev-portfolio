@@ -21,15 +21,21 @@ export default function About() {
         <ul className="contact">
           <li>
             <i className="bi bi-telephone-fill"></i>
-            <Link>+27 60 603 1205</Link>
+            <a href="tel:+27606031205">+27 60 603 1205</a>
           </li>
           <li>
             <i className="bi bi-envelope-fill"></i>
-            <Link>kurisanimaluleke77@gmail.com</Link>
+            <a href="mailto:kurisanimaluleke77@gmail.com">kurisanimaluleke77@gmail.com</a>
           </li>
           <li>
             <i className="bi bi-geo-alt-fill"></i>
-            <Link>Thane,India</Link>
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=Limpopo%2C+South+Africa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Limpopo, South Africa
+            </a>
           </li>
         </ul>
       </div>
