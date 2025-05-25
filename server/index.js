@@ -11,7 +11,7 @@ app.use(express.json())
 const corsOption = {
   origin: "https://kurisani-maluleke.vercel.app",
   methods: "GET,POST,PUT,DELETE,PATCH,HEAD",
-  Credentials:true,
+  credentials:true,
 };
 app.use(cors(corsOption));
 
