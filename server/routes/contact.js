@@ -31,16 +31,16 @@ router.post(
         let mailOptions = {
             from: "kurisanimaluleke77@gmail.com",
             to:email,
-            subject:"Thanks For Reaching Out!",
+            subject:"Thanks for getting in touch!🎉",
             text:`Hi ${name},
     
-Thanks so much for reaching out through my developer portfolio website! I'm excited to hear from you and learn more about what you have in mind.
-            
-I've received your message and will get back to you as soon as possible, typically within [your response timeframe]. In the meantime, feel free to check out my portfolio at [your website link] for more information about my skills and experience.
-            
-In the meantime, if you have any questions or need to clarify anything in your message, please don't hesitate to reply to this email.
-            
-Looking forward to connecting with you!
+Hey there! Thanks a bunch for reaching out through my portfolio website. I’m really excited to hear from you and chat about what you have in mind.
+
+I’ve got your message and will get back to you as soon as I can—usually within 5 hourse. In the meantime, feel free to check out my work and projects over at kurisani-maluleke.vercel.app.
+
+If you have any questions or want to add anything, just reply to this email anytime.
+
+Can’t wait to connect with you!
             
 Best regards,
             
