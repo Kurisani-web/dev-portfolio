@@ -31,20 +31,20 @@ router.post(
         let mailOptions = {
             from: "kurisanimaluleke77@gmail.com",
             to:email,
-            subject:"Thanks for getting in touch!🎉",
-            text:`Hi ${name},
-    
-Hey there! Thanks a bunch for reaching out through my portfolio website. I’m really excited to hear from you and chat about what you have in mind.
+            subject: "Thanks for reaching out!",
+text: `Hi ${name},
 
-I’ve got your message and will get back to you as soon as I can—usually within 5 hourse. In the meantime, feel free to check out my work and projects over at kurisani-maluleke.vercel.app.
+Thank you so much for getting in touch through my portfolio website!
 
-If you have any questions or want to add anything, just reply to this email anytime.
+I'm excited to hear about your project and will get back to you within 5 hours. Meanwhile, feel free to explore more of my work at: https://kurisani-maluleke.vercel.app
 
-Can’t wait to connect with you!
-            
-Best regards,
-            
-kurisanimaluleke77@gmail.com`
+If you have any more details to share or questions to ask, just reply to this email anytime.
+
+Looking forward to chatting with you!
+
+Warm regards,  
+Kurisani Maluleke  
+kurisanimaluleke77@gmail.com`,
         };
         transporter.sendMail(mailOptions,(error,info) => {
             if(error){
