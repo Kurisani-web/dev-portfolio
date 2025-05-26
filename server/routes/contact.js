@@ -31,7 +31,7 @@ router.post(
         let mailOptions = {
             from: "kurisanimaluleke77@gmail.com",
             to:email,
-            subject: "Thanks for reaching out!",
+            subject: "Thanks for reaching out!🎉",
 text: `Hi ${name},
 
 Thank you so much for getting in touch through my portfolio website!
