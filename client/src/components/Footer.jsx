@@ -64,7 +64,7 @@ export default function Footer() {
               </li>
             </ul>
             <ul className="social-link">
-              <li>
+                  {/* <li>
                 <Link to="">
                   <i className="bi bi-instagram"></i>
                 </Link>
@@ -73,17 +73,27 @@ export default function Footer() {
                 <Link to="">
                   <i className="bi bi-facebook"></i>
                 </Link>
-              </li>
+              </li>*/}
               <li>
-                <Link to="">
-                  <i className="bi bi-github"></i>
-                </Link>
-              </li>
-              <li>
-                <Link to="">
-                  <i className="bi bi-youtube"></i>
-                </Link>
-              </li>
+  <Link
+    to="#"
+    onClick={() =>
+      window.open("https://wa.me/27606031205", "_blank", "noopener,noreferrer")
+    }
+  >
+    <i className="bi bi-whatsapp"></i>
+  </Link>
+</li>
+<li>
+  <Link
+    to="#"
+    onClick={() =>
+      window.open("https://www.youtube.com/@CheFu.", "_blank", "noopener,noreferrer")
+    }
+  >
+    <i className="bi bi-youtube"></i>
+  </Link>
+</li>
             </ul>
           </div>
         </div>
